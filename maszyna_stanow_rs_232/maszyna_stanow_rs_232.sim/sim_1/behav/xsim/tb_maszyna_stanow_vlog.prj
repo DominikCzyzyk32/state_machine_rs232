@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../maszyna_stanow_rs_232.srcs/sources_1/new/maszyna_stanow.v" \
+"../../../../maszyna_stanow_rs_232.srcs/sim_1/new/tb_maszyna_stanow.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
